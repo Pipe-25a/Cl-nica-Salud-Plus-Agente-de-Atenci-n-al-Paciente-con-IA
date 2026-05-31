@@ -45,4 +45,5 @@ clinica-salud-plus-rag/
 | `memory/long_term_memory.py` | Persiste interacciones en ChromaDB en disco y las recupera por similitud semántica al inicio de cada nueva sesión. |
 | `tests/test_agent.py` | 20 pruebas que cubren consultas informativas, urgencias, agendamiento y consultas multietapa. |
 
-
+##Diagrama de Fujos
+<img width="934" height="1294" alt="image" src="https://github.com/user-attachments/assets/7e25d203-d377-4544-bff3-6f0510e92340" />
