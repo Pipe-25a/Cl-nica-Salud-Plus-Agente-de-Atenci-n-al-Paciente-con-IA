@@ -6,7 +6,6 @@
 
 # 1. Clonar el repositorio
 Clonar el repositorio
-cd clinica-salud-plus-rag
 # 2. Instalar dependencias
 pip install -r requirements.txt
 # 3. Configurar credenciales
