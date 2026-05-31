@@ -4,13 +4,17 @@
 > Integrantes: Felipe Pérez S. · Ignacio Naum F.
 ## Instalación
 
+```bash
 # 1. Clonar el repositorio
-Clonar el repositorio
+git clone https://github.com/...
+cd clinica-salud-plus-rag
+
 # 2. Instalar dependencias
 pip install -r requirements.txt
+
 # 3. Configurar credenciales
 cp .env.example .env
-# 4. Editar .env con tu token
+```
 
 Sistema de atención al paciente basado en **LangChain Agents (ReAct)**, RAG semántico y memoria dual de corto y largo plazo.
 ## Requisitos
@@ -54,5 +58,5 @@ clinica-salud-plus-rag/
 | `memory/long_term_memory.py` | Persiste interacciones en ChromaDB en disco y las recupera por similitud semántica al inicio de cada nueva sesión. |
 | `tests/test_agent.py` | 20 pruebas que cubren consultas informativas, urgencias, agendamiento y consultas multietapa. |
 
-##Diagrama de Fujos
+##Diagrama de Flujos
 <img width="934" height="1294" alt="image" src="https://github.com/user-attachments/assets/7e25d203-d377-4544-bff3-6f0510e92340" />
