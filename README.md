@@ -2,6 +2,16 @@
 
 > **Evaluación Parcial N°2 — ISY0101 Ingeniería de Soluciones con IA — DuocUC**  
 > Integrantes: Felipe Pérez S. · Ignacio Naum F.
+## Instalación
+
+# 1. Clonar el repositorio
+git clone https://github.com/tu-usuario/clinica-salud-plus-rag-ep2
+cd clinica-salud-plus-rag
+# 2. Instalar dependencias
+pip install -r requirements.txt
+# 3. Configurar credenciales
+cp .env.example .env
+# Editar .env con tu token
 
 Sistema de atención al paciente basado en **LangChain Agents (ReAct)**, RAG semántico y memoria dual de corto y largo plazo.
 ## Requisitos
